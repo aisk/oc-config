@@ -30,11 +30,8 @@
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOParentMatch</key>
 			<dict>
-				<key>IOPropertyMatch</key>
-				<dict>
-					<key>pcidebug</key>
-					<string>2:0:0</string>
-				</dict>
+				<key>IONameMatch</key>
+				<string>PTXH</string>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostController</string>
@@ -114,11 +111,8 @@
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOParentMatch</key>
 			<dict>
-				<key>IOPropertyMatch</key>
-				<dict>
-					<key>pcidebug</key>
-					<string>12:0:3</string>
-				</dict>
+				<key>IONameMatch</key>
+				<string>XHC0</string>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostController</string>
